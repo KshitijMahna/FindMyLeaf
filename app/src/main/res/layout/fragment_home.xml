@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="         ABOUT"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#75DE0B"
+        android:textSize="49sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/about_text"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Plant identification is the building brick of plant research and development, and is very important for environmental protection and exploration. Usually, the leaves can be easily obtained from a plant and have sufficient visible characteristics for differentiating between their respective plant species.
+
+FindMyLeaf is an automatic leaf image recognition system for plant species identification." />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:layout_marginTop="65dp"
+        android:src="@drawable/leaf" />
+
+</FrameLayout>
